@@ -2,7 +2,7 @@ package com.example.backend.controller;
 
 
 import com.example.backend.model.Item;
-import com.example.backend.service.ItemService;
+import com.example.backend.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,17 +16,17 @@ import java.util.List;
 public class CategoryController {
 
     @Autowired
-    ItemService itemService;
+    CategoryService categoryService;
 
     @GetMapping("items")
-    public List<Item> GetItems(){
-        return itemService.getItems();
+    public List<Item> GetCategories(){
+        return categoryService.getCategory();
     }
 
     @PostMapping("items")
-    public String PostItem(@RequestBody Item item){
-        itemService.saveItem(item);
-        return "Lisatud " + item.getName();
+    public String PostCategories(@RequestBody Item category){
+        categoryService.saveCategory(category);
+        return "Lisatud " + category.getName();
     }
 
 
