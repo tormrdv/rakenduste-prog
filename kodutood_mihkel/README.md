@@ -9,4 +9,4 @@ teine ja neljas kodutöö tehtud
 ## Kujundatud item lisamise form
 ![Screenshot 2021-11-07 075736](https://user-images.githubusercontent.com/71014202/140634312-ffaec838-0341-404a-b30c-660f31f9eed7.png)
 ## Kujundatud category lisamise form
-![Screenshot 2021-11-07](https://user-images.githubusercontent.com/71014202/140634314-8078487f-7388-4426-8aed-69af4716367c.png)
+![Screenshot 2021-11-07 080353](https://user-images.githubusercontent.com/71014202/140634344-27dbb501-476b-4a56-bea7-579a0e30f2d0.png)
