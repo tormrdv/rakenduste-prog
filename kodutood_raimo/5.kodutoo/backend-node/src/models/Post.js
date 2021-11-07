@@ -1,10 +1,11 @@
 const { Schema, model } = require('mongoose');
-const User = require('./User');
+//const User = require('./User');
 
 
 const postSchema = new Schema({
+  id: {type: Number, required: true},
   body: { type: String, required: true },
-  user: { type: Schema.Types.ObjectId, ref: User, required: true },
+  textbody: { type: String, required: true },
   createdAt: { type: Date, default: Date.now }
 });
 
