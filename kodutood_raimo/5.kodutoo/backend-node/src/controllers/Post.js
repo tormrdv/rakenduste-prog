@@ -7,7 +7,7 @@ exports.getPosts = async (req, res) => {
 }
 
 exports.createPost = async function (req, res) {
-  const newPost = {
+  /*const newPost = {
     body: req.body.body,
     user: req.body.user
   }
@@ -16,7 +16,16 @@ exports.createPost = async function (req, res) {
   const savedPost = createdPost.save()
 
   res.status(200).send(`Saved ${createdPost}`)
-};
+};*/
+  
+  const newPost = req.body
+
+  const createdPost = new Post(newPost)
+
+  const savedPost = await createdPost.save()
+
+  res.status(200).send(`yay ${savedPost._id}`)
+}
 
 exports.updatePost = async (req, res) => {
   const { id } = req.params.id;
