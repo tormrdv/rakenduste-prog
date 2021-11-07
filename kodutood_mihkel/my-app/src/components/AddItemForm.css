@@ -1,0 +1,41 @@
+
+
+form {
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+select{
+    font-family: monospace;
+    font-size: 20px;
+    background-color: white;
+    opacity: 0.9;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 2px 3px 10px gray;
+}
+
+input{
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px gray;
+}
+
+button{
+    border: none;
+    margin: 5px;
+    font-family: monospace;
+    background-color:white;
+    opacity: 0.9;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px gray;
+}
+
+button:hover{
+    background-color:rgb(168, 168, 168);
+    cursor: pointer;
+}

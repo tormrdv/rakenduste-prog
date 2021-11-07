@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #017e94be;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
+
+.logo {
+    margin-left: 0%;
+    height: 150px;
+}
+
+.cart {
+    height: 50px;
+    margin-top: 50px;
+}
+
+.additem{
+    height: 50px;
+    margin-top: 50px;
+    
+}
+
+.addcategory{
+    height: 50px;
+    margin-top: 50px;
+    
+}
